@@ -1,0 +1,31 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+env/
+venv/
+ENV/
+
+# Airflow
+airflow.db
+airflow.cfg
+logs/
+*.pid
+
+# Данные
+data/input/*
+data/processed/*
+data/error/*
+!data/input/.gitkeep
+!data/processed/.gitkeep
+!data/error/.gitkeep
+
+# IDE
+.vscode/
+.idea/
+
+# OS
+.DS_Store
+Thumbs.db
