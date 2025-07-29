@@ -1,0 +1,9 @@
+pandas
+tabula-py
+openpyxl
+lxml
+psycopg2-binary
+apache-airflow
+celery
+redis
+bots-edi[all]
